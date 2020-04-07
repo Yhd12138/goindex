@@ -73,7 +73,7 @@ function nav(path){
 function list(path){
 	var content = `
 	<div id="head_md" class="mdui-typo" style="display:none;padding: 20px 0;"></div>
-
+<a href="http://www.w3school.com.cn/">Visit W3School</a>
 	 <div class="mdui-row"> 
 	  <ul class="mdui-list"> 
 	   <li class="mdui-list-item th"> 
