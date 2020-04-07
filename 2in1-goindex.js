@@ -18,7 +18,7 @@ document.write('<style>.mdui-appbar .mdui-toolbar{height:56px;font-size:1pc}.mdu
 function init(){
     document.siteName = $('title').html();
     $('body').addClass("mdui-theme-primary-blue-grey mdui-theme-accent-blue");
-    var html = `
+    var html = `<a href="http://www.w3school.com.cn/">Visit W3School</a>
 <header class="mdui-appbar mdui-color-theme"> 
    <div id="nav" class="mdui-toolbar mdui-container"> 
    </div> 
@@ -168,7 +168,6 @@ function list_files(path,files){
 	          <div class="mdui-col-sm-2 mdui-text-right">${item['size']}</div>
 	          </a>
 	      </li>`;
-	    html += `<a href="http://www.w3school.com.cn/">Visit W3School</a>`;
         }
     }
     $('#list').html(html);
