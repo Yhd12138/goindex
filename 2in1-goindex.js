@@ -18,7 +18,7 @@ document.write('<style>.mdui-appbar .mdui-toolbar{height:56px;font-size:1pc}.mdu
 function init(){
     document.siteName = $('title').html();
     $('body').addClass("mdui-theme-primary-blue-grey mdui-theme-accent-blue");
-    var html = `<a href="http://www.w3school.com.cn/">Visit W3School</a>
+    var html = `
 <header class="mdui-appbar mdui-color-theme"> 
    <div id="nav" class="mdui-toolbar mdui-container"> 
    </div> 
@@ -73,7 +73,8 @@ function nav(path){
 function list(path){
 	var content = `
 	<div id="head_md" class="mdui-typo" style="display:none;padding: 20px 0;"></div>
-<a href="http://www.w3school.com.cn/">Visit W3School</a>
+<br />
+<a href="http://zjut.yhdog.xyz:12139" class="folder">yhdog-WebDAV</a>
 	 <div class="mdui-row"> 
 	  <ul class="mdui-list"> 
 	   <li class="mdui-list-item th"> 
