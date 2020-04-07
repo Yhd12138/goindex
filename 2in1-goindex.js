@@ -52,7 +52,8 @@ function title(path){
 // 渲染导航栏
 function nav(path){
     var html = "";
-    html += `<a href="/" class="mdui-typo-headline folder">${document.siteName}</a>`;
+    html += `<a href="/" class="mdui-typo-headline folder">${document.siteName}</a><br />
+<a href="https://zjut.yhdog.xyz:12139" class="mdui-typo-headline folder"> Local-WebDAV </a>`;
     var arr = path.trim('/').split('/');
     var p = '/';
     if(arr.length > 0){
@@ -73,8 +74,7 @@ function nav(path){
 function list(path){
 	var content = `
 	<div id="head_md" class="mdui-typo" style="display:none;padding: 20px 0;"></div>
-<br />
-<a href="http://zjut.yhdog.xyz:12139" class="folder">yhdog-WebDAV</a>
+
 	 <div class="mdui-row"> 
 	  <ul class="mdui-list"> 
 	   <li class="mdui-list-item th"> 
